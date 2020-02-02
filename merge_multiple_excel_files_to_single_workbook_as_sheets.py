@@ -18,7 +18,6 @@ files_in_directory = os.listdir(directory_location)
 # create merge workbook
 workbook = xlsxwriter.Workbook(merge_file_location)
 
-
 #################################################################
 #################################################################
 for file in files_in_directory:
@@ -39,5 +38,4 @@ for file in files_in_directory:
             
 #################################################################
 #################################################################
-
 workbook.close()
